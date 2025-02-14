@@ -16,10 +16,10 @@
 - One topic you should have found information on is "redirection". Please provide at least 3 redirection examples that we should implement in our custom shell, and explain what challenges we might have implementing them.
 
     > **Answer**: 1. ls > output.txt → Saves output to a file instead of printing on screen.
-2. cat < input.txt → Reads input from a file instead of the keyboard.
-3. command 2> error.log → Saves error messages in a separate file.
+> 2. cat < input.txt → Reads input from a file instead of the keyboard.
+> 3. command 2> error.log → Saves error messages in a separate file.
 
-Challenges:
+> Challenges:
 1. We need to handle file operations properly.
 2. We must redirect the correct output stream (STDOUT, STDERR, or STDIN).
 3. We need to handle file permissions (if a file is read-only).
